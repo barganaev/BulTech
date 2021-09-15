@@ -9,8 +9,12 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+
+  // Chekcbox values
   bool _checked1 = true;
   bool _checked2 = false;
+
+  // Slider value
   double _changed = 0;
 
   @override
